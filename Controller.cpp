@@ -2,6 +2,8 @@
 //The main control loop is executed by the timer interrupt:
 // On STM32F401, this is now a generic control loop ISR (attached to a timer).
 
+
+#include "patchSerial.h"
 #include <SPI.h>
 
 #include "State.h"

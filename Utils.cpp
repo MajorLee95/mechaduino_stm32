@@ -1,5 +1,6 @@
 //Contains the definitions of the functions used by the firmware.
 
+#include "patchSerial.h"
 #include <SPI.h>
 #include <Wire.h>
 // *** STM32F401 PORT ***

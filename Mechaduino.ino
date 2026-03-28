@@ -45,7 +45,7 @@
   Mechaduino Firmware v0.1.5 - PORTAGE STM32F401CCU6
   Compatible Arduino IDE avec core STM32 officielle (stm32duino)
 */
-
+#include "patchSerial.h"
 #include <SPI.h>
 #include <Wire.h>
 
